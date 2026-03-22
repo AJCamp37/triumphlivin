@@ -1,3 +1,4 @@
+import logo from '/src/assets/logo.png';
 interface NavigationProps {
   scrolled: boolean;
 }
@@ -18,7 +19,7 @@ export default function Navigation({ scrolled }: NavigationProps) {
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3 cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
             <img 
-              src='src/assets/logo.png'
+              src={logo}
               alt="Logo"
               className="h-12 w-auto"
             />

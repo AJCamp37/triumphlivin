@@ -1,3 +1,6 @@
+import bedroom from '/src/assets/bedroom.jpeg';
+import kitchen from '/src/assets/kitchen.jpg';
+import common from '/src/assets/common.jpg';
 export default function OurHomes() {
   const amenities = [
     {
@@ -70,21 +73,21 @@ export default function OurHomes() {
         <div className="grid lg:grid-cols-3 gap-6">
           <div className="rounded-2xl overflow-hidden shadow-lg h-64">
             <img 
-              src='src/assets/bedroom.jpeg'
+              src={bedroom}
               alt="Comfortable bedroom"
               className="w-full h-full object-cover object-top"
             />
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg h-64">
             <img 
-              src='src/assets/kitchen.jpg'
+              src={kitchen}
               alt="Shared kitchen"
               className="w-full h-full object-cover object-top"
             />
           </div>
           <div className="rounded-2xl overflow-hidden shadow-lg h-64">
             <img 
-              src='src/assets/common.jpg'
+              src= {common}
               alt="Common area"
               className="w-full h-full object-cover object-top"
             />

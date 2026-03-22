@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import Navigation from './Navigation';
+import hero from '/src/assets/hero.jpg'
 
 export default function Hero() {
   const [scrolled, setScrolled] = useState(false);
@@ -61,7 +62,7 @@ export default function Hero() {
           <div className="relative">
             <div className="rounded-3xl overflow-hidden shadow-2xl">
               <img 
-                src='/src/assets/hero.jpg'
+                src={hero}
                 alt="Welcoming home exterior"
                 className="w-full h-full object-cover object-top"
               />

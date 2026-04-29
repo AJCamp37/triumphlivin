@@ -160,7 +160,7 @@ export default function ContactSection() {
                 {formData.message.length}/500 characters
               </div>
               <div className="text-right text-xs text-slate-500 mt-1">
-                By providing your phone number, you agree to receive text messages from Triumph Livin regarding services, appointments, and updates. Message frequency may vary. Message and data rates may apply. Reply STOP to opt out or HELP for assistance. Consent is not a condition of purchase. See our Pricacy Policy and Terms for more information.
+                By providing your phone number, you agree to receive text messages from Triumph Livin regarding services, appointments, and updates. Message frequency may vary. Message and data rates may apply. Reply STOP to opt out or HELP for assistance. Consent is not a condition of purchase. See our Privacy Policy and Terms for more information.
               </div>
             </div>
 

@@ -156,11 +156,11 @@ export default function ContactSection() {
                 className="w-full px-4 py-3 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all resize-none"
                 placeholder="Share any additional information that would help us understand your needs..."
               ></textarea>
-              <div className="disclaimer">
-                By providint your phone number, you agree to receive text messages from Triumph Livin regarding services, appointments, and updates. Message frequency may vary. Message and data rates may apply. Reply STOP to opt out or HELP for assistance. Consent is not a condition of purchase. See our Pricacy Policy and Terms for more information.
-              </div>
               <div className="text-right text-xs text-slate-500 mt-1">
                 {formData.message.length}/500 characters
+              </div>
+              <div className="text-right text-xs text-slate-500 mt-1">
+                By providing your phone number, you agree to receive text messages from Triumph Livin regarding services, appointments, and updates. Message frequency may vary. Message and data rates may apply. Reply STOP to opt out or HELP for assistance. Consent is not a condition of purchase. See our Pricacy Policy and Terms for more information.
               </div>
             </div>
 
